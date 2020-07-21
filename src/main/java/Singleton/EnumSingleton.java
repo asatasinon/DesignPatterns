@@ -23,7 +23,7 @@ public enum EnumSingleton {
 
     private String myField = "这是枚举的属性!";
 
-    public void whateverMethod() {
+    public void showMethod() {
         System.out.println("这是枚举的方法!");
     }
 
