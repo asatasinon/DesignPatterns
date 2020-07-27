@@ -11,11 +11,11 @@ package Singleton;
  * 缺点：非线程安全，在多线程不能正常工作。
  * 可以被 序列化+反序列化 破坏单例，即：json转换
  */
-public class LazySingleton {
+public class LazySimpleSingleton {
 
-    private static LazySingleton instance;
+    private static LazySimpleSingleton instance;
 
-    private LazySingleton() {
+    private LazySimpleSingleton() {
     }
 
     /**
@@ -27,9 +27,9 @@ public class LazySingleton {
      * <p>
      * 3. 线程1与线程2各有一个实例化的类，线程1、2同时进去实例化的方法，线程1生成并返回了实例1，线程2生成并返回了实例2
      */
-    public static LazySingleton getInstance() {
+    public static LazySimpleSingleton getInstance() {
         if (instance == null) {
-            instance = new LazySingleton();
+            instance = new LazySimpleSingleton();
         }
         return instance;
     }

@@ -14,7 +14,7 @@ public class SingletonTest {
         //如果线程安全，则所有的实例都是一致的
         for(int i = 0; i<10;i++){
             new Thread(()->{
-                System.out.println(LazySingleton.getInstance());
+                System.out.println(LazySimpleSingleton.getInstance());
             }).start();
         }
 
