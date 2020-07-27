@@ -9,6 +9,7 @@ package Singleton;
  * 优点：懒加载（第一次调用才初始化），避免内存浪费，线程安全
  * <p>
  * 缺点：性能效率低
+ * 可以被 序列化+反序列化 破坏单例，即：json转换
  */
 public class LazySafeSingleton {
 
