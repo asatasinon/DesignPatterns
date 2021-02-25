@@ -1,0 +1,9 @@
+Singleton\LazySafeSingleton.class
+Singleton\LazyDoubleCheckSingleton.class
+Singleton\LazyStaticInnerClassSingleton$LazyHolder.class
+Singleton\EnumSingleton.class
+Singleton\HungrySingleton.class
+org\example\App.class
+Singleton\LazyStaticInnerClassSingleton.class
+Singleton\LazyStaticInnerClassSingleton$1.class
+Singleton\LazySimpleSingleton.class
