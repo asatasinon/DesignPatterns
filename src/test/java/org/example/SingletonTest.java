@@ -4,7 +4,7 @@ import Singleton.*;
 
 /**
  * 创建人：Sinon
- * 创建时间：2020/7/20
+ * 创建时间：2021/2/26
  */
 public class SingletonTest {
     public static void main(String[] args) {

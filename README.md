@@ -1,5 +1,5 @@
-# DesignPatterns 设计原则
-DesignPatterns 设计原则
+# DesignPatterns 设计模式
+DesignPatterns 设计模式
 
 
 
@@ -7,7 +7,7 @@ DesignPatterns 设计原则
 ```java
 /**
  * 创建人：Sinon
- * 创建时间：2020/7/20
+ * 创建时间：2021/2/26
  * 
  * 5.饿汉式单例
  * 
@@ -31,7 +31,7 @@ DesignPatterns 设计原则
 ```java
 /**
  * 创建人：Sinon
- * 创建时间：2020/7/20
+ * 创建时间：2021/2/26
  * <p>
  * 1.懒汉式单例-非线程安全版
  * <p>
@@ -45,7 +45,7 @@ DesignPatterns 设计原则
 ```java
 /**
  * 创建人：Sinon
- * 创建时间：2020/7/20
+ * 创建时间：2021/2/26
  * <p>
  * 2.懒汉式单例-线程安全版
  * <p>
@@ -59,7 +59,7 @@ DesignPatterns 设计原则
 ```java
 /**
  * 创建人：Sinon
- * 创建时间：2020/7/20
+ * 创建时间：2021/2/26
  * <p>
  * 3.懒汉式单例-双重校验版
  * 双重校验锁（DCL，即 double-checked locking）
@@ -74,7 +74,7 @@ DesignPatterns 设计原则
 ```java
 /**
  * 创建人：Sinon
- * 创建时间：2020/7/20
+ * 创建时间：2021/2/26
  * <p>
  * 4.懒汉式单例-静态内部类版
  * java的 类初始加载：
@@ -90,7 +90,7 @@ DesignPatterns 设计原则
 ```java
 /**
  * 创建人：Sinon
- * 创建时间：2020/7/20
+ * 创建时间：2021/2/26
  * <p>
  * 6.枚举式单例
  * <p>
